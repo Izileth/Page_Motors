@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    @apply w-full h-full ;
+  }
+  
+  img {
+    @apply w-full h-full object-cover;
+  }
+}
+
+@layer components {
+  .link {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  
+  .hero h1 .char {
+    @apply relative;
+    will-change: transform;
+  }
+  
+  .col p .line {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  
+  .col p .line span {
+    @apply relative;
+    will-change: transform;
+  }
+}
