@@ -1,8 +1,8 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import PageTransition from '../scripts/animations';
 import Home from '../pages/home';
-import About from '../pages/about';
-import Products from '../pages/product';
+import About from '../pages/About';
+import Products from '../pages/product'
 import Profile from '../pages/profile';
 import Contact from '../pages/contact';
 

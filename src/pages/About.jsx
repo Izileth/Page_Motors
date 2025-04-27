@@ -102,7 +102,7 @@ function About() {
           
           {/* Elemento decorativo no canto */}
           <div className="absolute bottom-6 left-6 z-20">
-            <span className="text-white text-xs tracking-widest font-light">MOTORS</span>
+            <span className="text-white text-xs tracking-widest font-light">PRESTIGE MOTORS</span>
           </div>
         </div>
         

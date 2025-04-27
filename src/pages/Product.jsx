@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import SplitType from 'split-type';
 
-function Products() {
+export default function Products() {
     const titleRef = useRef(null);
     const vehiclesGridRef = useRef(null);
     const featuredSectionRef = useRef(null);
@@ -223,5 +223,3 @@ function Products() {
         </div>
     );
 }
-
-export default Products;
