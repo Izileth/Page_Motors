@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import SplitType from 'split-type';
 import MotorsImage from '../../public/assets/images/Motors_1.jpg'; // Ajuste o caminho conforme necessário
 
-function About() {
+export function About() {
   const textRef = useRef(null);
   const titleRef = useRef(null);
   const sectionRef = useRef(null);
@@ -162,5 +162,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

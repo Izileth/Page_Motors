@@ -4,7 +4,7 @@ import { gsap } from 'gsap';
 import SplitType from 'split-type';
 import { Link } from "react-router-dom";
 import Collections from '../components/collections'; 
-function Home() {
+export function Home() {
   const titleRef = useRef(null);
   const ctaRef = useRef(null);
   const imageContainerRef = useRef(null);
@@ -172,4 +172,3 @@ function Home() {
   );
 }
 
-export default Home;

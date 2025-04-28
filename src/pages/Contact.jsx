@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import SplitType from 'split-type';
 
-function Contact() {
+export function Contact() {
     const titleRef = useRef(null);
     const formRef = useRef(null);
     const infoRef = useRef(null);
@@ -295,5 +295,3 @@ function Contact() {
         </div>
     );
 }
-
-export default Contact;

@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import SplitType from 'split-type';
 
-function Profile() {
+export function Profile() {
     const sectionRefs = useRef([]);
     const titleRef = useRef(null);
     
@@ -284,5 +284,3 @@ function Profile() {
         </div>
     );
 }
-
-export default Profile;
