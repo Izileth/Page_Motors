@@ -1,11 +1,12 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
+
 import PageTransition from '../scripts/animations';
 
-import { Home } from '../pages/Home';
-import { About } from '../pages/About';
-import { Products } from '../pages/product';
-import { Profile } from '../pages/Profile';
-import { Contact } from '../pages/Contact';
+import {Home} from '../pages/Home/index'
+import {About} from '../pages/About/index'
+import {Vehicles} from '../pages/Vehicles/index'
+import{Profile} from '../pages/Profile/index'
+import {Contact} from '../pages/Contact/index'
 function Routers() {
     const location = useLocation();
     
@@ -23,15 +24,15 @@ function Routers() {
             path="/about" 
             element={
             <PageTransition>
-                <About />
+                <About/>
             </PageTransition>
             } 
         />
         <Route 
-            path="/products" 
+            path="/vehicles" 
             element={
             <PageTransition>
-                <Products />
+                <Vehicles/>
             </PageTransition>
             } 
         />
@@ -39,7 +40,7 @@ function Routers() {
             path="/profile" 
             element={
             <PageTransition>
-                <Profile />
+                <Profile/>
             </PageTransition>
             } 
         />
@@ -47,7 +48,7 @@ function Routers() {
             path="/contact" 
             element={
             <PageTransition>
-                <Contact />
+                <Contact/>
             </PageTransition>
             } 
         />

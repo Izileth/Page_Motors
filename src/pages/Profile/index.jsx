@@ -170,10 +170,10 @@ export function Profile() {
                 
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                     {[
-                        { name: 'Carlos Mendes', position: 'Diretor Executivo', img: '/api/placeholder/300/300' },
-                        { name: 'Amanda Silva', position: 'Gerente de Vendas', img: '/api/placeholder/300/300' },
-                        { name: 'Ricardo Ferreira', position: 'Chefe de Mecânica', img: '/api/placeholder/300/300' },
-                        { name: 'Juliana Costa', position: 'Consultora Premium', img: '/api/placeholder/300/300' }
+                        { name: 'Carlos Mendes', position: 'Diretor Executivo', img: 'https://i.pinimg.com/736x/ea/37/05/ea3705b1f6c606b6adaed9a8ef46a6f4.jpg' },
+                        { name: 'Amanda Silva', position: 'Gerente de Vendas', img: 'https://i.pinimg.com/736x/ce/e0/ba/cee0bab43046457c4a74677b9bf791f0.jpg' },
+                        { name: 'Ricardo Ferreira', position: 'Chefe de Mecânica', img: 'https://i.pinimg.com/736x/f9/be/bd/f9bebd91f618e936098dfb0a58b030a1.jpg' },
+                        { name: 'Juliana Costa', position: 'Consultora Premium', img: 'https://i.pinimg.com/736x/bf/64/13/bf6413b0b94b3ef6a6cf15723679d6bb.jpg' }
                     ].map((member, index) => (
                         <div key={index} ref={addToRefs} className="text-center">
                             <div className="aspect-square overflow-hidden mb-4">

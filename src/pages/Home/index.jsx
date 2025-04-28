@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import SplitType from 'split-type';
 import { Link } from "react-router-dom";
-import Collections from '../components/collections'; 
+import Collections from '../../components/collections';
 export function Home() {
   const titleRef = useRef(null);
   const ctaRef = useRef(null);
@@ -95,7 +95,7 @@ export function Home() {
           className="absolute bottom-32 left-1/2 -translate-x-1/2"
         >
           <button className="bg-transparent text-zinc-50 px-12 py-4 border border-gray-400 text-sm font-light tracking-widest hover:bg-gray-100 hover:text-zinc-950 transition-colors duration-300">
-            <Link to='/products'>     EXPLORAR</Link>
+            <Link to='/vehicles'>     EXPLORAR</Link>
           </button>
         </div>
     </div>

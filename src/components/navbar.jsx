@@ -94,7 +94,7 @@ function Navbar() {
           </div>
           <div className="link">
             <Link
-              to="/products"
+              to="/vehicles"
               ref={el => linksRef.current.push(el)}
               className="inline-block relative text-black font-light text-lg"
             >
@@ -169,28 +169,28 @@ function Navbar() {
               className="text-black font-light text-lg hover:text-gray-700 transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              About
+              Sobre
             </Link>
             <Link 
-              to="/products" 
+              to="/vehicles" 
               className="text-black font-light text-lg hover:text-gray-700 transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Products
+              Destaques
             </Link>
             <Link 
               to="/profile" 
               className="text-black font-light text-lg hover:text-gray-700 transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Profile
+              História
             </Link>
             <Link 
               to="/contact" 
               className="text-black font-light text-lg hover:text-gray-700 transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Contact
+              Contato
             </Link>
           </div>
         </div>

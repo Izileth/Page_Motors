@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import SplitType from 'split-type';
-import MotorsImage from '../../public/assets/images/Motors_1.jpg'; // Ajuste o caminho conforme necessário
+import MotorsImage from '../../../public/assets/images/Motors_1.jpg'; // Ajuste o caminho conforme necessário
 
 export function About() {
   const textRef = useRef(null);

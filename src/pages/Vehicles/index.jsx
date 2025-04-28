@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import SplitType from 'split-type';
 
-export function Products() {
+export function Vehicles() {
     const titleRef = useRef(null);
     const vehiclesGridRef = useRef(null);
     const featuredSectionRef = useRef(null);
@@ -17,10 +17,10 @@ export function Products() {
     ]);
 
     const [brands] = useState([
-        { id: 1, name: 'Brand A', logo: '/api/placeholder/150/80' },
-        { id: 2, name: 'Brand B', logo: '/api/placeholder/150/80' },
-        { id: 3, name: 'Brand C', logo: '/api/placeholder/150/80' },
-        { id: 4, name: 'Brand D', logo: '/api/placeholder/150/80' },
+        { id: 1, name: 'Brand A', logo: 'https://i.pinimg.com/736x/00/97/df/0097dfd539f2908424e85cf9e19b0e85.jpg' },
+        { id: 2, name: 'Brand B', logo: 'https://i.pinimg.com/736x/12/21/bc/1221bc2929d3199073d2ccc83a0eb47d.jpg' },
+        { id: 3, name: 'Brand C', logo: 'https://i.pinimg.com/736x/b5/18/2a/b5182a6926a5c0cb810769eb01ae9269.jpg' },
+        { id: 4, name: 'Brand D', logo: 'https://i.pinimg.com/736x/ab/09/57/ab09578976ebd4da61be8b03894e0517.jpg' },
     ]);
 
     const [featuredVehicles] = useState([
